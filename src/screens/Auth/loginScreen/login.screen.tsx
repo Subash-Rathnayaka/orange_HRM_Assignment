@@ -56,15 +56,7 @@ const LoginScreen = (props: ILogIn) => {
           value={username}
         />
         {/* Input field for password */}
-        {/* <TextInput
-          style={input}
-          placeholder="Password"
-          secureTextEntry={true}
-          onChangeText={text => {
-            setPassword(text);
-          }}
-          value={password}
-        /> */}
+        
           <View style={passwordInput}>
           <TextInput
             placeholder="Password"
